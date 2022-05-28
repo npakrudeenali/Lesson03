@@ -1,0 +1,77 @@
+/*Color Palette:
+dark blue--#1D3557
+light blue--#457B9D
+teal--#A8DADC
+beige--#F1FAEE
+red--#E63946
+*/
+
+
+/*Global styles
+___________________________________________________*/
+
+body{
+    color: black;
+}
+
+img {
+    width:300px;
+}
+
+a {
+    color:#E63946;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*Profile 
+___________________________________________________*/
+
+header {
+    background-color: #A8DADC;
+}
+
+/*Project
+___________________________________________________*/
+
+.projects {
+    background-color: #1D3557;
+    color:#F1FAEE;
+}
+
+.projects a {
+
+}
+
+.projects .btn {
+    background-color: #F1FAEE;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects a:hover {
+    background-color: rgba(241, 250, 238, 70%);
+}
+
+
+/*Work
+___________________________________________________*/
+
+.experience {
+    background-color:#457B9D ;
+    color:#F1FAEE;
+}
+
+/*Education
+___________________________________________________*/
+
+
+
+/*Contact
+___________________________________________________*/
+
+footer {
+    background-color:#A8DADC;
+}
