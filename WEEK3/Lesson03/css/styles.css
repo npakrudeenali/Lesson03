@@ -1,0 +1,127 @@
+/*Color Palette:
+dark blue--#1D3557
+light blue--#457B9D
+teal--#A8DADC
+beige--#F1FAEE
+red--#E63946
+*/
+@font-face {
+    font-family: "quicksand";
+    src:url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+    }
+
+@font-face {
+    font-family: "cursive";
+    src :url("../fonts/Sacramento/Sacramento-Regular.ttf");
+}
+
+/*Global styles
+___________________________________________________*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    color: black;
+    margin:0;
+    padding:0;
+    font-family: "quicksand", sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "cursive", sans-serif;
+    font-size: 120px;
+    margin:0;
+}
+
+img {
+    width:300px;
+}
+
+a {
+    color:#E63946;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    margin:0;
+    font-family: "cursive", sans-serif;
+    font-size:55px;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding:60px 0;
+}
+
+/*Profile 
+___________________________________________________*/
+
+header {
+    background-color: #A8DADC;
+}
+
+/*Project
+___________________________________________________*/
+
+.projects {
+    background-color: #1D3557;
+    color:#F1FAEE;
+}
+
+.projects .btn {
+    background-color: #F1FAEE;
+    padding: 8px;
+    border-radius: 4px;
+    display:inline-block;
+}
+
+.projects a:hover {
+    background-color: rgba(241, 250, 238, 70%);
+}
+
+.projectitem h3 {
+    margin-top: 0;
+}
+
+.projectitem {
+    overflow: hidden;
+    border-bottom: 4px #E63946;
+    border-bottom-style: dotted;
+    padding: 25px 0;
+}
+
+.projectitem img{
+    float: left;
+    margin-right: 20px;
+}
+
+/*Work
+___________________________________________________*/
+
+.experience {
+    background-color:#457B9D ;
+    color:#F1FAEE;
+}
+
+/*Education
+___________________________________________________*/
+
+
+
+/*Contact
+___________________________________________________*/
+
+footer {
+    background-color:#A8DADC;
+}
